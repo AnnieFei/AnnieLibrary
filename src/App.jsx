@@ -11,23 +11,24 @@ const works = [
     type: "image",
     media: "/assets/cant-feminist.jpg", // ADD/REPLACE YOUR FIRST IMAGE HERE
     shape: "portrait",
-    note: "A sentence interrupted before it becomes an excuse.",
+    note: "and I won't",
     paragraphs: [
-      "Write the first paragraph about this work here. Describe where it came from, what it means to you, or what the viewer should notice.",
-      "Use this second paragraph for process, material, memory, or context. The reading view is designed for short personal essays.",
-      "End with a final thought, question, or detail that changes how the image is understood."
+      "I can't pray to something that I don't belive exists. Religion, Us, Emotion, Time, what a joke",
+      "I used Acrylics here on a 88 * 54 canvas",
+      "Hope you get it"
     ]
   },
   {
     id: "work-two",
     number: "02",
-    title: "Artwork Two",
+    title: "insipid",
     year: "2025",
     type: "image",
-    media: "/assets/your-image-02.jpg", // ADD YOUR SECOND IMAGE HERE
-    shape: "wide",
-    note: "Add a short sentence about this work.",
-    paragraphs: ["Add your writing here.", "Add another paragraph here."]
+    media: "https://i.postimg.cc/rFPC8j5K/image.png", // ADD YOUR SECOND IMAGE HERE
+    shape: "portrait",
+    note: "Maybe not at all yk, could just be messy",
+    paragraphs: ["this painting made me realized how lazy and not consistent. I wanted say how we grow by letting go the past versions of ourselves.", 
+                "Acrylics again, can't afford oil"]
   },
   {
     id: "work-three",

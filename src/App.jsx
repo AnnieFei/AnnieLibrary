@@ -27,7 +27,7 @@ const works = [
     media: "https://i.postimg.cc/rFPC8j5K/image.png", // ADD YOUR SECOND IMAGE HERE
     shape: "portrait",
     note: "Maybe not at all yk, could just be messy",
-    paragraphs: ["this painting made me realized how lazy and not consistent. I wanted say how we grow by letting go the past versions of ourselves.", 
+    paragraphs: ["this painting made me realized how lazy and not consistent I am. I wanted to say how we grow by letting go the past versions of ourselves, yk?.", 
                 "Acrylics again, can't afford oil"]
   },
   {

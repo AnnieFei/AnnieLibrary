@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 
+const asset = (filename) => `${import.meta.env.BASE_URL}assets/${filename}`;
+
 // EDIT YOUR LIBRARY HERE.
 // Put images/videos in public/assets, then change the `media` path for each work.
 const works = [
@@ -9,7 +11,7 @@ const works = [
     title: '"I can\'t,"',
     year: "2026",
     type: "image",
-    media: "/assets/cant-feminist.jpg", // ADD/REPLACE YOUR FIRST IMAGE HERE
+    media: asset("cant-feminist.jpg"), // ADD/REPLACE YOUR FIRST IMAGE HERE
     shape: "portrait",
     note: "and I won't",
     paragraphs: [
@@ -36,8 +38,8 @@ const works = [
     title: "Artwork Three",
     year: "2024",
     type: "video",
-    media: "/assets/your-video-03.mp4", // ADD YOUR VIDEO HERE
-    poster: "/assets/your-video-poster-03.jpg", // ADD THE VIDEO PREVIEW IMAGE HERE
+    media: asset("your-video-03.mp4"), // ADD YOUR VIDEO HERE
+    poster: asset("your-video-poster-03.jpg"), // ADD THE VIDEO PREVIEW IMAGE HERE
     shape: "tall",
     note: "Add a short sentence about this video.",
     paragraphs: ["Add your writing here.", "Add another paragraph here."]
@@ -48,7 +50,7 @@ const works = [
     title: "Artwork Four",
     year: "2023",
     type: "image",
-    media: "/assets/your-image-04.jpg", // ADD YOUR FOURTH IMAGE HERE
+    media: asset("your-image-04.jpg"), // ADD YOUR FOURTH IMAGE HERE
     shape: "landscape",
     note: "Add a short sentence about this work.",
     paragraphs: ["Add your writing here.", "Add another paragraph here."]

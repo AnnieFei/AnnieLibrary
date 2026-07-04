@@ -15,7 +15,7 @@ body { margin: 0; min-width: 320px; overflow-x: hidden; background: #050505; }
 body.detail-open { overflow: hidden; }
 button { font: inherit; }
 a { color: inherit; }
-::selection { color: #050505; background: #e9e2cf; }
+::selection { color: #050505; background: #81D2C7; }
 
 .cursor-light {
   position: fixed;

@@ -131,7 +131,7 @@ function Detail({ work, onClose }) {
         <div className="detail__paragraphs">
           {work.paragraphs.map((paragraph, index) => <p key={`${work.id}-${index}`}>{paragraph}</p>)}
         </div>
-        <a className="original" href={work.media} target="_blank" rel="noreferrer">View original ↗</a>
+        <a className="original" href={work.media} target="_blank" rel="noreferrer">View full image ↗</a>
       </article>
     </section>
   );

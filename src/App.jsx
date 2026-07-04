@@ -192,7 +192,7 @@ export function App() {
         <div className="library-flow">
           <section className={`hero ${firstWorkReached ? "hero--archive" : ""}`}>
             <h1>{firstWorkReached ? "Like it?" : "Welcome"}</h1>
-            <p>I’ll walk you through my mind.</p>
+            <p>keep going</p>
           </section>
 
           <section className="archive" id="archive" aria-label="Artwork archive">
@@ -202,7 +202,7 @@ export function App() {
 
         <section className="about" id="about">
           <p className="microcopy">About / Personal library</p>
-          <p>A collection of images, moving fragments, and unfinished thoughts.</p>
+          <p>a page of things im proud of</p>
         </section>
       </main>
 

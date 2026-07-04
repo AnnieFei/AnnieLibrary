@@ -179,7 +179,7 @@ a { color: inherit; }
 .detail__paragraphs { max-width: 58ch; color: rgba(242,240,233,.84); font-size: 13px; line-height: 1.75; }
 .detail__paragraphs p { margin: 0 0 20px; }
 .original { display: inline-block; margin-top: 20px; color: var(--muted); font-size: 10px; text-decoration: none; text-transform: uppercase; }
-.original:hover, .original:focus-visible { color: #f2f0e9; }
+.original:hover, .original:focus-visible { color: #E8DCB9; }
 
 @keyframes detail-in { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
 
